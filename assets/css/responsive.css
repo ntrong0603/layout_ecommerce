@@ -61,6 +61,10 @@
 }
 
 @media only screen and (min-width: 992px) {
+    .navbar-toggler {
+        display: none;
+    }
+
     .cart_dropdown:hover>.dropdown-menu {
         display: block !important;
         opacity: 1 !important;
@@ -350,6 +354,38 @@
 
     .banner_content_inner {
         padding: 30px;
+    }
+
+    #tabmenubar {
+        position: absolute;
+        right: 0;
+        top: 100%;
+        z-index: 999;
+        display: block;
+        background-color: #fff;
+        box-shadow: 0 0 10px rgb(0 0 0 / 20%);
+        padding: 15px;
+        opacity: 0;
+        visibility: hidden;
+        height: auto !important;
+    }
+
+    #tabmenubar.show {
+        opacity: 1;
+        visibility: visible;
+        margin-top: 0;
+    }
+
+    .tab-style2 .nav-tabs li.nav-item a {
+        padding: 5px 0;
+    }
+
+    #tabmenubar li a {
+        text-align: left;
+    }
+
+    .heading_tab_header .navbar-toggler {
+        margin: 0;
     }
 }
 

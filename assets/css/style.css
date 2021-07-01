@@ -2404,3 +2404,125 @@ footer p {
 }
 
 /** End sesscion product */
+/** Countdown */
+.deal_wrap {
+    border: 2px solid var(--primary-color);
+    border-radius: 20px;
+    overflow: hidden;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.deal_wrap .product_img {
+    max-width: 300px;
+    width: 100%;
+}
+
+.deal_content {
+    width: 100%;
+    padding: 30px 30px 30px 0;
+}
+
+.deal_content .product_info {
+    padding: 0;
+}
+
+.deal_progress {
+    padding-top: 5px;
+    display: block;
+}
+
+.stock-available {
+    float: right;
+}
+
+.deal_progress .progress {
+    margin-top: 5px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+.deal_progress .progress-bar {
+    background-color: var(--primary-color);
+    text-indent: -99999px;
+}
+
+.countdown_time {
+    display: table;
+    width: 100%;
+}
+
+.countdown_time.countdown_style4 {
+    margin: 0 -2px;
+    width: auto;
+    display: block;
+}
+
+.countdown_time .countdown_box {
+    float: left;
+    width: 25%;
+    font-family: 'Roboto';
+    padding: 0 15px;
+}
+
+.countdown_time.countdown_style4 .countdown_box {
+    padding: 0 2px;
+}
+
+.countdown-wrap {
+    display: inline-block;
+    text-align: center;
+}
+
+.countdown_style4 .countdown_box .countdown-wrap {
+    text-align: center;
+    background-color: #f2f2f2;
+    width: 100%;
+    padding: 10px;
+}
+
+.countdown_box .countdown {
+    color: #292b2c;
+    font-size: 40px;
+}
+
+.deal_wrap .countdown_box .countdown {
+    font-size: 24px;
+}
+
+.countdown_time .cd_text {
+    display: block;
+}
+
+.deal_wrap .countdown_time .cd_text {
+    font-size: 13px;
+}
+
+.owl-theme .owl-nav {
+    margin-top: 0;
+}
+
+.nav_style3.owl-theme .owl-nav [class*="owl-"],
+.nav_style4.owl-theme .owl-nav [class*="owl-"] {
+    position: absolute;
+    top: -80px;
+    border-radius: 0;
+    right: 0;
+    height: auto;
+    width: auto;
+    background-color: transparent;
+}
+
+.nav_style3.owl-theme .owl-nav .owl-prev {
+    right: 40px;
+}
+
+.nav_style2.owl-theme .owl-nav [class*="owl-"]:hover,
+.nav_style3.owl-theme .owl-nav [class*="owl-"]:hover,
+.nav_style4.owl-theme .owl-nav [class*="owl-"]:hover {
+    color: #555;
+}
+
+/** End countdown */

@@ -58,6 +58,14 @@
     .footer_top.small_pb {
         padding-bottom: 40px;
     }
+
+    .deal_wrap .product_img {
+        max-width: 200px;
+    }
+
+    .deal_content {
+        padding: 20px 20px 20px 0;
+    }
 }
 
 @media only screen and (min-width: 992px) {
@@ -387,6 +395,24 @@
     .heading_tab_header .navbar-toggler {
         margin: 0;
     }
+
+    .deal_wrap {
+        display: block;
+        padding: 20px;
+    }
+
+    .deal_wrap .product_img {
+        margin: 0 auto;
+    }
+
+    .deal_content {
+        padding: 10px 0 0px;
+    }
+
+    .countdown_box .countdown {
+        font-size: 34px;
+    }
+
 }
 
 @media only screen and (max-width: 767px) {
@@ -427,6 +453,10 @@
 
     .banner_content_inner {
         padding: 0px;
+    }
+
+    .deal_wrap .countdown_time .cd_text {
+        font-size: 11px;
     }
 }
 
